@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: users
+  cloud:
+    config:
+      #local
+      uri: http://localhost:9010
+      profile: dev
